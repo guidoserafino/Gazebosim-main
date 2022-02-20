@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/guido/Scaricati/Gazebosim-main/plugins/IntelRealSensePlugin/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66bbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66bbc.dir/build.make CMakeFiles/cmTC_66bbc.dir/build
+make[1]: ingresso nella directory "/home/guido/Scaricati/Gazebosim-main/plugins/IntelRealSensePlugin/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_66bbc.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_66bbc.dir/CheckSymbolExists.c.o   -c /home/guido/Scaricati/Gazebosim-main/plugins/IntelRealSensePlugin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_66bbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66bbc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_66bbc.dir/CheckSymbolExists.c.o  -o cmTC_66bbc -rdynamic 
+CMakeFiles/cmTC_66bbc.dir/CheckSymbolExists.c.o: nella funzione "main":
+CheckSymbolExists.c:(.text+0x16): riferimento non definito a "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_66bbc.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_66bbc" non riuscito
+make[1]: *** [cmTC_66bbc] Errore 1
+make[1]: uscita dalla directory "/home/guido/Scaricati/Gazebosim-main/plugins/IntelRealSensePlugin/build/CMakeFiles/CMakeTmp"
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_66bbc/fast" non riuscito
+make: *** [cmTC_66bbc/fast] Errore 2
+
+File /home/guido/Scaricati/Gazebosim-main/plugins/IntelRealSensePlugin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/guido/Scaricati/Gazebosim-main/plugins/IntelRealSensePlugin/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44f7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44f7b.dir/build.make CMakeFiles/cmTC_44f7b.dir/build
+make[1]: ingresso nella directory "/home/guido/Scaricati/Gazebosim-main/plugins/IntelRealSensePlugin/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_44f7b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_44f7b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_44f7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44f7b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_44f7b.dir/CheckFunctionExists.c.o  -o cmTC_44f7b -rdynamic -lpthreads 
+/usr/bin/ld: impossibile trovare -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_44f7b.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_44f7b" non riuscito
+make[1]: *** [cmTC_44f7b] Errore 1
+make[1]: uscita dalla directory "/home/guido/Scaricati/Gazebosim-main/plugins/IntelRealSensePlugin/build/CMakeFiles/CMakeTmp"
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_44f7b/fast" non riuscito
+make: *** [cmTC_44f7b/fast] Errore 2
+
+

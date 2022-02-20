@@ -1,0 +1,116 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+EXIT_SIGN	known_objects.hpp	/^	EXIT_SIGN,$/;"	e	enum:target_object
+FIRE_EXTINGUISHER	known_objects.hpp	/^	FIRE_EXTINGUISHER$/;"	e	enum:target_object
+FOCAL_LENGTH	vision.hpp	9;"	d
+GazeboInterface	gazebo_interface.hpp	/^class GazeboInterface {$/;"	c
+GazeboInterface	server.cpp	/^GazeboInterface::GazeboInterface(){}$/;"	f	class:GazeboInterface
+HORIZONTAL_FOV	vision.hpp	15;"	d
+IMAGE_HEIGHT	vision.hpp	13;"	d
+IMAGE_WIDTH	vision.hpp	14;"	d
+KNOWN_SIZE	main.cpp	9;"	d	file:
+Movement	movement_primitives.cpp	/^Movement::Movement(GazeboInterface gz, Vision v){$/;"	f	class:Movement
+Movement	movement_primitives.hpp	/^class Movement {$/;"	c
+PIXEL_SIZE	vision.hpp	10;"	d
+PORT	net_protocol.cpp	11;"	d	file:
+Positioning	positioning.cpp	/^Positioning::Positioning(GazeboInterface *gz){$/;"	f	class:Positioning
+Positioning	positioning.hpp	/^class Positioning{$/;"	c
+SENSOR_HEIGHT	vision.hpp	11;"	d
+SENSOR_WIDTH	vision.hpp	12;"	d
+Tracker	tracker.cpp	/^Tracker::Tracker(){$/;"	f	class:Tracker
+Tracker	tracker.hpp	/^class Tracker {$/;"	c
+VERTICAL_FOV	vision.hpp	16;"	d
+Vision	vision.cpp	/^Vision::Vision(GazeboInterface gz){$/;"	f	class:Vision
+Vision	vision.hpp	/^class Vision {$/;"	c
+__GAZEBO_INTERFACE__	gazebo_interface.hpp	2;"	d
+__KNOWN_OBJECTS_H__	known_objects.hpp	2;"	d
+__MOVEMENT_PRIMITIVES_H__	movement_primitives.hpp	2;"	d
+__OBJECT_TRACKER_H__	tracker.hpp	2;"	d
+__VISION_H__	vision.hpp	2;"	d
+__positioning_H__	positioning.hpp	2;"	d
+_socket	gazebo_interface.hpp	/^	int _socket;$/;"	m	class:GazeboInterface
+adjust_distance	movement_primitives.cpp	/^void Movement::adjust_distance(double target_distance_m, double object_height, double precision_m){$/;"	f	class:Movement
+angular_velocity	movement_primitives.hpp	/^	double angular_velocity;$/;"	m	class:Movement
+backproj	tracker.hpp	/^	cv::Mat hsv, hue, mask, hist, histimg, backproj;$/;"	m	class:Tracker
+backprojMode	tracker.hpp	/^	bool backprojMode;$/;"	m	class:Tracker
+circle	movement_primitives.cpp	/^void Movement::circle(int segments, int stop, double max_object_offcentering, double single_segment_precision){$/;"	f	class:Movement
+current_frame	vision.hpp	/^	cv::Mat current_frame;$/;"	m	class:Vision
+current_roi	vision.hpp	/^	cv::Rect2d current_roi = cv::Rect2d(0,0,0,0);$/;"	m	class:Vision
+face_surface	movement_primitives.cpp	/^void Movement::face_surface(){$/;"	f	class:Movement
+getImage	server.cpp	/^cv::Mat GazeboInterface::getImage(){$/;"	f	class:GazeboInterface
+getImage	server.cpp	/^cv::Mat GazeboInterface::getImage(int width, int height){$/;"	f	class:GazeboInterface
+get_angle	server.cpp	/^double GazeboInterface::get_angle(){$/;"	f	class:GazeboInterface
+get_distance	server.cpp	/^unsigned int GazeboInterface::get_distance(){$/;"	f	class:GazeboInterface
+get_frame	vision.cpp	/^cv::Mat Vision::get_frame(){$/;"	f	class:Vision
+get_imu	server.cpp	/^std::vector<double> GazeboInterface::get_imu(){$/;"	f	class:GazeboInterface
+get_roi	vision.cpp	/^cv::Rect2d Vision::get_roi(){$/;"	f	class:Vision
+get_true_yaw	server.cpp	/^double GazeboInterface::get_true_yaw(){$/;"	f	class:GazeboInterface
+get_yaw	positioning.cpp	/^double Positioning::get_yaw(){$/;"	f	class:Positioning
+hist	tracker.hpp	/^	cv::Mat hsv, hue, mask, hist, histimg, backproj;$/;"	m	class:Tracker
+histimg	tracker.hpp	/^	cv::Mat hsv, hue, mask, hist, histimg, backproj;$/;"	m	class:Tracker
+horizontal_centering	movement_primitives.cpp	/^void Movement::horizontal_centering(double tolerance){$/;"	f	class:Movement
+hranges	tracker.hpp	/^	float hranges[2];$/;"	m	class:Tracker
+hsize	tracker.hpp	/^	int hsize;$/;"	m	class:Tracker
+hsv	tracker.hpp	/^	cv::Mat hsv, hue, mask, hist, histimg, backproj;$/;"	m	class:Tracker
+hue	tracker.hpp	/^	cv::Mat hsv, hue, mask, hist, histimg, backproj;$/;"	m	class:Tracker
+hw	movement_primitives.hpp	/^	GazeboInterface *hw;$/;"	m	class:Movement
+hw	positioning.hpp	/^		GazeboInterface *hw;$/;"	m	class:Positioning
+hw	vision.hpp	/^	GazeboInterface *hw;$/;"	m	class:Vision
+init	tracker.cpp	/^void Tracker::init( cv::Mat frame, cv::Rect object_roi ) {$/;"	f	class:Tracker
+init	tracker.cpp	/^void Tracker::init( target_object obj){$/;"	f	class:Tracker
+init_listener	server.cpp	/^void GazeboInterface::init_listener(bool verbose, std::string suffix){$/;"	f	class:GazeboInterface
+init_object_roi	vision.cpp	/^int Vision::init_object_roi(){$/;"	f	class:Vision
+init_server	server.cpp	/^int GazeboInterface::init_server(){$/;"	f	class:GazeboInterface
+known_object_roi	vision.cpp	/^int Vision::known_object_roi(target_object obj){$/;"	f	class:Vision
+linear_translation	movement_primitives.cpp	/^void Movement::linear_translation(float distance,float movement_direction, float precision){$/;"	f	class:Movement
+main	main.cpp	/^int main(int argc, char **argv){$/;"	f
+manual_navigation	movement_primitives.cpp	/^void Movement::manual_navigation(char command){$/;"	f	class:Movement
+mask	tracker.hpp	/^	cv::Mat hsv, hue, mask, hist, histimg, backproj;$/;"	m	class:Tracker
+obj_dist	vision.cpp	/^double Vision::obj_dist(cv::Point p1, cv::Point p2, double real_height){$/;"	f	class:Vision
+obj_height	vision.cpp	/^double Vision::obj_height(cv::Point p1, cv::Point p2, double real_distance){$/;"	f	class:Vision
+obj_width	vision.cpp	/^double Vision::obj_width(cv::Point p1, cv::Point p2, double real_distance){$/;"	f	class:Vision
+origin	tracker.hpp	/^	cv::Point origin;$/;"	m	class:Tracker
+phranges	tracker.hpp	/^	const float* phranges = hranges;$/;"	m	class:Tracker
+point_coords	vision.cpp	/^cv::Vec3f Vision::point_coords(cv::Point p, double rho){$/;"	f	class:Vision
+point_cylindrical_coords	vision.cpp	/^cv::Vec3f Vision::point_cylindrical_coords(cv::Point p, double distance){$/;"	f	class:Vision
+point_polar_coords	vision.cpp	/^cv::Vec3f Vision::point_polar_coords(cv::Point p, double rho){$/;"	f	class:Vision
+pos	movement_primitives.hpp	/^	Positioning *pos;$/;"	m	class:Movement
+position	positioning.hpp	/^		std::vector<double> position;$/;"	m	class:Positioning
+quit_listener	server.cpp	/^void GazeboInterface::quit_listener(){$/;"	f	class:GazeboInterface
+rcv_msg	net_protocol.cpp	/^std::string rcv_msg(int sock){$/;"	f
+relative_linear_translation	movement_primitives.cpp	/^void Movement::relative_linear_translation(double distance, double direction, double height){$/;"	f	class:Movement
+relative_translation	movement_primitives.cpp	/^void Movement::relative_translation(double max_object_offcentering, double movement_direction, double end_angle, double end_angle_precision){$/;"	f	class:Movement
+roi_center	vision.cpp	/^cv::Point Vision::roi_center(cv::Rect roi){$/;"	f	class:Vision
+rotate	movement_primitives.cpp	/^void Movement::rotate(double rotation, double precision){$/;"	f	class:Movement
+selectObject	tracker.hpp	/^	bool selectObject;$/;"	m	class:Tracker
+selection	tracker.hpp	/^	cv::Rect selection;$/;"	m	class:Tracker
+send_message	net_protocol.cpp	/^void send_message(int sock, std::string msg){$/;"	f
+set_angular_velocity	server.cpp	/^void GazeboInterface::set_angular_velocity(std::vector<double> v){$/;"	f	class:GazeboInterface
+set_linear_velocity	server.cpp	/^void GazeboInterface::set_linear_velocity(std::vector<double> v){$/;"	f	class:GazeboInterface
+set_object_frame	server.cpp	/^void GazeboInterface::set_object_frame(){$/;"	f	class:GazeboInterface
+set_world_frame	server.cpp	/^void GazeboInterface::set_world_frame(){$/;"	f	class:GazeboInterface
+showHist	tracker.hpp	/^	bool showHist;$/;"	m	class:Tracker
+show_image	vision.hpp	/^		show_image = 1;$/;"	m	class:Vision
+show_roi	vision.hpp	/^	int show_roi = 0,$/;"	m	class:Vision
+smin	tracker.hpp	/^	int vmin, vmax, smin;$/;"	m	class:Tracker
+speed	movement_primitives.hpp	/^	double speed;$/;"	m	class:Movement
+stop	movement_primitives.cpp	/^void Movement::stop(){$/;"	f	class:Movement
+string_to_vect3d	net_protocol.cpp	/^std::vector<double> string_to_vect3d(std::string str){$/;"	f
+target_object	known_objects.hpp	/^enum target_object {$/;"	g
+toggle_roi	vision.cpp	/^void Vision::toggle_roi(){$/;"	f	class:Vision
+trackWindow	tracker.hpp	/^	cv::Rect trackWindow;$/;"	m	class:Tracker
+tracker	vision.hpp	/^	Tracker *tracker;$/;"	m	class:Vision
+update	tracker.cpp	/^cv::Rect Tracker::update( cv::Mat frame ) {$/;"	f	class:Tracker
+update_frame	vision.cpp	/^void Vision::update_frame(){$/;"	f	class:Vision
+update_object_roi	vision.cpp	/^int Vision::update_object_roi(){$/;"	f	class:Vision
+update_position	positioning.cpp	/^void Positioning::update_position(std::vector<double> movement, double direction){$/;"	f	class:Positioning
+update_yaw	positioning.cpp	/^void Positioning::update_yaw(double rotation){$/;"	f	class:Positioning
+vect_to_string	net_protocol.cpp	/^std::string vect_to_string(std::vector<double> vec){$/;"	f
+vision	movement_primitives.hpp	/^	Vision *vision;$/;"	m	class:Movement
+vmax	tracker.hpp	/^	int vmin, vmax, smin;$/;"	m	class:Tracker
+vmin	tracker.hpp	/^	int vmin, vmax, smin;$/;"	m	class:Tracker
+yaw	positioning.hpp	/^		double yaw;$/;"	m	class:Positioning

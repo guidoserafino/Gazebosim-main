@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guido/Scaricati/Gazebosim-main/plugins/IntelRealSensePlugin/RealSensePlugin.cc
+RealSensePlugin.hh
+/home/guido/Scaricati/Gazebosim-main/plugins/IntelRealSensePlugin/RealSensePlugin.hh
+gazebo/physics/physics.hh
+-
+gazebo/rendering/DepthCamera.hh
+-
+gazebo/sensors/sensors.hh
+-
+
+/home/guido/Scaricati/Gazebosim-main/plugins/IntelRealSensePlugin/RealSensePlugin.hh
+gazebo/common/Plugin.hh
+-
+gazebo/common/common.hh
+-
+gazebo/physics/PhysicsTypes.hh
+-
+gazebo/physics/physics.hh
+-
+gazebo/rendering/DepthCamera.hh
+-
+gazebo/sensors/sensors.hh
+-
+sdf/sdf.hh
+-
+string
+-
+

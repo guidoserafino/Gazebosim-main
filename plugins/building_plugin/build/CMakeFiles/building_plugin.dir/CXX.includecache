@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guido/Scaricati/Gazebosim-main/plugins/building_plugin/building_plugin.cpp
+gazebo/gazebo.hh
+-
+gazebo/physics/Model.hh
+-
+gazebo/physics/World.hh
+-
+gazebo/physics/Link.hh
+-
+gazebo/transport/transport.hh
+-
+

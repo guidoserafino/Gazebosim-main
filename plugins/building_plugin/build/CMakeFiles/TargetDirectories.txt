@@ -1,0 +1,3 @@
+/home/guido/Scaricati/Gazebosim-main/plugins/building_plugin/build/CMakeFiles/edit_cache.dir
+/home/guido/Scaricati/Gazebosim-main/plugins/building_plugin/build/CMakeFiles/rebuild_cache.dir
+/home/guido/Scaricati/Gazebosim-main/plugins/building_plugin/build/CMakeFiles/building_plugin.dir
