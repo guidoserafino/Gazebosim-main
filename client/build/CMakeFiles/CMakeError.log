@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/guido/Scaricati/Gazebosim-main/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_14fc0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_14fc0.dir/build.make CMakeFiles/cmTC_14fc0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f173c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f173c.dir/build.make CMakeFiles/cmTC_f173c.dir/build
 make[1]: ingresso nella directory "/home/guido/Scaricati/Gazebosim-main/client/build/CMakeFiles/CMakeTmp"
-Building C object CMakeFiles/cmTC_14fc0.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_14fc0.dir/CheckSymbolExists.c.o   -c /home/guido/Scaricati/Gazebosim-main/client/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_14fc0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14fc0.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_14fc0.dir/CheckSymbolExists.c.o  -o cmTC_14fc0 -rdynamic 
-CMakeFiles/cmTC_14fc0.dir/CheckSymbolExists.c.o: nella funzione "main":
+Building C object CMakeFiles/cmTC_f173c.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f173c.dir/CheckSymbolExists.c.o   -c /home/guido/Scaricati/Gazebosim-main/client/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f173c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f173c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f173c.dir/CheckSymbolExists.c.o  -o cmTC_f173c -rdynamic 
+CMakeFiles/cmTC_f173c.dir/CheckSymbolExists.c.o: nella funzione "main":
 CheckSymbolExists.c:(.text+0x16): riferimento non definito a "pthread_create"
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_14fc0.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_14fc0" non riuscito
-make[1]: *** [cmTC_14fc0] Errore 1
+CMakeFiles/cmTC_f173c.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_f173c" non riuscito
+make[1]: *** [cmTC_f173c] Errore 1
 make[1]: uscita dalla directory "/home/guido/Scaricati/Gazebosim-main/client/build/CMakeFiles/CMakeTmp"
-Makefile:126: set di istruzioni per l'obiettivo "cmTC_14fc0/fast" non riuscito
-make: *** [cmTC_14fc0/fast] Errore 2
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_f173c/fast" non riuscito
+make: *** [cmTC_f173c/fast] Errore 2
 
 File /home/guido/Scaricati/Gazebosim-main/client/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/guido/Scaricati/Gazebosim-main/client/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70c19/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70c19.dir/build.make CMakeFiles/cmTC_70c19.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b5b89/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5b89.dir/build.make CMakeFiles/cmTC_b5b89.dir/build
 make[1]: ingresso nella directory "/home/guido/Scaricati/Gazebosim-main/client/build/CMakeFiles/CMakeTmp"
-Building C object CMakeFiles/cmTC_70c19.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_70c19.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_70c19
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70c19.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_70c19.dir/CheckFunctionExists.c.o  -o cmTC_70c19 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_b5b89.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b5b89.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b5b89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5b89.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b5b89.dir/CheckFunctionExists.c.o  -o cmTC_b5b89 -rdynamic -lpthreads 
 /usr/bin/ld: impossibile trovare -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_70c19.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_70c19" non riuscito
-make[1]: *** [cmTC_70c19] Errore 1
+CMakeFiles/cmTC_b5b89.dir/build.make:97: set di istruzioni per l'obiettivo "cmTC_b5b89" non riuscito
+make[1]: *** [cmTC_b5b89] Errore 1
 make[1]: uscita dalla directory "/home/guido/Scaricati/Gazebosim-main/client/build/CMakeFiles/CMakeTmp"
-Makefile:126: set di istruzioni per l'obiettivo "cmTC_70c19/fast" non riuscito
-make: *** [cmTC_70c19/fast] Errore 2
+Makefile:126: set di istruzioni per l'obiettivo "cmTC_b5b89/fast" non riuscito
+make: *** [cmTC_b5b89/fast] Errore 2
 
 
