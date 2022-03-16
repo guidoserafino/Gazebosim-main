@@ -47,6 +47,14 @@ thread
 -
 string.h
 -
+iostream
+-
+sys/wait.h
+-
+sys/types.h
+-
+stdlib.h
+-
 opencv2/opencv.hpp
 -
 opencv2/highgui.hpp
@@ -94,6 +102,10 @@ bits/wordsize.h
 
 /usr/include/x86_64-linux-gnu/bits/select2.h
 
+/usr/include/x86_64-linux-gnu/bits/siginfo.h
+bits/wordsize.h
+-
+
 /usr/include/x86_64-linux-gnu/bits/sigset.h
 
 /usr/include/x86_64-linux-gnu/bits/sockaddr.h
@@ -138,6 +150,12 @@ bits/typesizes.h
 
 /usr/include/x86_64-linux-gnu/bits/uio.h
 sys/types.h
+-
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h
+endian.h
 -
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h
@@ -200,6 +218,20 @@ features.h
 sys/types.h
 -
 bits/uio.h
+-
+
+/usr/include/x86_64-linux-gnu/sys/wait.h
+features.h
+-
+signal.h
+-
+bits/waitflags.h
+-
+bits/waitstatus.h
+-
+bits/types.h
+-
+bits/siginfo.h
 -
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp

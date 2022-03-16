@@ -113,6 +113,7 @@ CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/asm/socket.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/select.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/siginfo.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/sockaddr.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/socket.h
@@ -123,12 +124,15 @@ CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/types.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/uio.h
+CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/sys/select.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/sys/socket.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/sys/types.h
 CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/sys/uio.h
+CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/sys/wait.h
 CMakeFiles/main.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/main.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
 CMakeFiles/main.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/affine.hpp
